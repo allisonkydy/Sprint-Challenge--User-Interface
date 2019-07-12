@@ -291,11 +291,16 @@ footer nav a {
 
 /* Animations */
 
-.nav-bar nav a {
+.nav-bar nav a, footer nav a {
+    padding: 2px;
     transition-property: box-shadow;
+    transition-duration: 0.7s;
 }
 
 .nav-bar nav a:hover {
     box-shadow: 5px -5px black;
 }
 
+footer nav a:hover {
+    box-shadow: 5px 5px white;
+}
