@@ -222,3 +222,21 @@ footer nav a {
     width: 95%;
     margin: 0 auto;
 }
+
+.about-main {
+    margin: 30px 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-main .about-box {
+    width: 370px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 60px;
+}
+
+.about-main .about-box .box-text {
+    padding: 10px 0 20px;
+}
