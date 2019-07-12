@@ -283,3 +283,8 @@ footer nav a {
     background: white;
     cursor: pointer;
 }
+
+.products-main .products-text ul {
+    list-style: square inside;
+    line-height: 1.4;
+}
