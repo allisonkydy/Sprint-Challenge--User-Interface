@@ -213,7 +213,7 @@ footer nav a {
 
 /* About Page */
 
-.about-top {
+.about-top, .products-top {
     padding-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -253,4 +253,11 @@ footer nav a {
 .about-bottom {
     width: 95%;
     margin: 0 auto 40px;
+}
+
+/* Products Page */
+
+.products-top .products-top-text {
+    width: 95%;
+    margin: 0 auto;
 }
