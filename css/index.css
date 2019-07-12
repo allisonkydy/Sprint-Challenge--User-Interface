@@ -261,3 +261,17 @@ footer nav a {
     width: 95%;
     margin: 0 auto;
 }
+
+.products-main {
+    margin: 30px 15px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products-main .products-text, .products-main img {
+    max-width: 370px;
+    margin-bottom: 30px;
+}
+
