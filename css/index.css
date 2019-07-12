@@ -66,6 +66,8 @@ p {
     line-height: 1.4;
 }
 
+/* Home Page */
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -136,17 +138,6 @@ header {
     justify-content: center;
 }
 
-/* box1: teal
-box2: gold
-box3: cadetblue
-box4: coral
-box5: crimson
-box6: forestgreen
-box7: darkorchid
-box8: hotpink
-box9: indigo
-box10: dodgerblue */
-
 .middle-content .boxes .box1 {
     background: teal;
 }
@@ -187,7 +178,6 @@ box10: dodgerblue */
     background: dodgerblue;
 }
 
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -220,3 +210,6 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About Page */
+
