@@ -240,3 +240,12 @@ footer nav a {
 .about-main .about-box .box-text {
     padding: 10px 0 20px;
 }
+
+.about-main .about-box button {
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    background: white;
+    cursor: pointer;
+}
