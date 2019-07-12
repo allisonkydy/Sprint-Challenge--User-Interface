@@ -213,3 +213,12 @@ footer nav a {
 
 /* About Page */
 
+.about-top {
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-top .about-text {
+    width: 95%;
+    margin: 0 auto;
+}
