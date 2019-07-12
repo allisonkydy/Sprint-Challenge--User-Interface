@@ -288,3 +288,14 @@ footer nav a {
     list-style: square inside;
     line-height: 1.4;
 }
+
+/* Animations */
+
+.nav-bar nav a {
+    transition-property: box-shadow;
+}
+
+.nav-bar nav a:hover {
+    box-shadow: 5px -5px black;
+}
+
