@@ -66,9 +66,35 @@ p {
     line-height: 1.4;
 }
 
+/* Home Page */
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.nav-bar{
+    margin: 20px 0 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.nav-bar nav {
+    width: 100%;
+    margin: 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar nav a {
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
 }
 
 .top-content {
@@ -112,6 +138,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    background: teal;
+}
+
+.middle-content .boxes .box2 {
+    background: gold;
+}
+
+.middle-content .boxes .box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background: coral;
+}
+
+.middle-content .boxes .box5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +209,98 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Page */
+
+.about-top, .products-top {
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-top .about-text {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.about-main {
+    margin: 30px 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-main .about-box {
+    width: 370px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 50px;
+}
+
+.about-main .about-box .box-text {
+    padding: 10px 0 20px;
+}
+
+.about-main .about-box button {
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    background: white;
+    cursor: pointer;
+}
+
+.about-bottom {
+    width: 95%;
+    margin: 0 auto 40px;
+}
+
+/* Products Page */
+
+.products-top .products-top-text {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.products-main {
+    margin: 30px 15px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.products-main .products-text, .products-main img {
+    max-width: 370px;
+    margin-bottom: 30px;
+}
+
+.products-main .products-text button {
+    padding: 7px 25px;
+    margin-top: 20px;
+    border: 1px solid black;
+    font-size: 15px;
+    background: white;
+    cursor: pointer;
+}
+
+.products-main .products-text ul {
+    list-style: square inside;
+    line-height: 1.4;
+}
+
+/* Animations */
+
+.nav-bar nav a, footer nav a {
+    padding: 2px;
+    transition-property: box-shadow;
+    transition-duration: 0.7s;
+}
+
+.nav-bar nav a:hover {
+    box-shadow: 5px -5px black;
+}
+
+footer nav a:hover {
+    box-shadow: 5px 5px white;
 }
